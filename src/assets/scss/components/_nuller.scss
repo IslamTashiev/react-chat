@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.container {
+    max-width: 600 + 30px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body{
+    background: #E4EAFF;
+    padding-top: 40px;
+    overflow: hidden;
+}
